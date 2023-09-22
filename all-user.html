@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all-user</title>
+    <!-- bootsrap5.2 css download link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- frontawesome6.2 css download link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header part start here -->
+    <header>
+        <div class="container-fluid headerPart">
+            <div class="row m-1">
+                <div class="col-md-3"></div>
+                <div class="col-md-7"></div>
+                <div class="col-md-2">
+                    <div class="dropdown">
+                        <button class=" dropdown-toggle button_clr" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img class="rounded-circle img-fluid user_img" src="images/user.png" alt="user logo">
+                            Rehana Kabir Mim
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-user-tie"></i> My Profile</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-cog"></i> Manage Account</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- header part start here -->
+    <!-- container part start here -->
+
+    <section class="container-fluid p-0 ">
+        <div class="row ">
+            <div class="col-md-2 sidebar p-0">
+                <img class="rounded-circle img-fluid sidebsr_img mt-2 avater_img" src="images/avatar.jpg"
+                    alt="sidebar logo">
+                <h4>Rehana Kabir Mim</h4>
+                <p><i class="fas fa-circle color"></i> online</p>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                        <li><a href="all-user.html"><i class="fas fa-user-circle"></i> Users</a></li>
+                        <li><a href="#"><i class="fas fa-images"></i> Banner</a></li>
+                        <li><a href="#"><i class="fas fa-comments"></i> Contact Message</a></li>
+                        <li><a href="#"><i class="fas fa-globe"></i> Live Site</a></li>
+                        <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-10 ">
+                <!-- breadcumb part start here -->
+
+                <div class="row">
+                    <div class="col-md-12 breadCumb  px-0">
+                        <div class="bread ">
+                            <ul>
+                                <li><a href=""><i class="fas fa-home"></i>Home</a></li>
+                                <li><a href=""><i class="fas fa-angle-double-right"></i>Dashboard</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- breadcumb part end here -->
+                <!--  card with table part start here -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card mb-3">
+                          <div class="card-header">
+                            <div class="row">
+                                <div class="col-md-8 card_title_part">
+                                    <img class= "card_img" src="images/gg-circle.svg"> ALL USER INFORMATION
+                                </div>
+                                <div class="col-md-4 card_button_part">
+                                    <a href="add-user.html" class="btn btn-sm btn-dark"><i class="fas fa-plus-circle"></i>Add User</a>
+                                </div>  
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <table class="table table-bordered table-striped table-hover custom_table">
+                              <thead class="table-dark">
+                                <tr>
+                                  <th>Name</th>
+                                  <th>Phone</th>
+                                  <th>Email</th>
+                                  <th>Username</th>
+                                  <th>Role</th>
+                                  <th>Manage</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Rehana Kabir Mim</td>
+                                  <td>01795913294</td>
+                                  <td>rehanakabirmim@gmail.com</td>
+                                  <td>mim</td>
+                                  <td>---</td>
+                                  <td>
+                                      <div class="btn-group btn_group_manage" role="group">
+                                        <button type="button" class="btn btn-sm btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Manage</button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="view-user.html">View</a></li>
+                                          <li><a class="dropdown-item" href="edit-user.html">Edit</a></li>
+                                          <li><a class="dropdown-item" href="#">Delete</a></li>
+                                        </ul>
+                                      </div>
+                                  </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                                <div class="card-footer">
+                                    <div class="btn-group" role="group" aria-label="Button group">
+                                      <button type="button" class="btn btn-sm btn-dark">Print</button>
+                                      <button type="button" class="btn btn-sm btn-secondary">PDF</button>
+                                      <button type="button" class="btn btn-sm btn-dark">Excel</button>
+                                    </div>
+                                  </div>
+                                  
+                             
+                                 <!--  card with table part start here -->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+     <!-- container part start here -->
+
+    <!--  footer part start here -->
+    <footer>
+        <div class="container-fluid footerPart">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-10 copyright">
+                    <p>Copyright &copy; 2022 | All rights reserved by Dashboard | Development By <a href="#">Creative
+                            System Limited.</a></p>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </footer>
+    <!--  footer part end here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootsrap5.2 js download link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
